@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title>PackBreak wolf logo</title>
+  <rect width="512" height="512" rx="96" fill="#c61f22"/>
+  <path d="M256 73 359 178l-17 91-54 41-32 128-32-128-54-41-17-91L256 73Z" fill="#152840"/>
+  <path d="m178 183 64 77-86 22 49-70-27-29Zm156 0-64 77 86 22-49-70 27-29Z" fill="#fff"/>
+  <path d="m202 228 48 42-75 20 27-62Zm108 0-48 42 75 20-27-62Z" fill="#d9d9d9"/>
+  <path d="m224 313 32 21 32-21-12 47h-40l-12-47Z" fill="#fff"/>
+  <path d="M216 283c17 2 29 8 37 19-21 2-35-3-43-16l6-3Zm80 0c-17 2-29 8-37 19 21 2 35-3 43-16l-6-3Z" fill="#fff"/>
+  <path d="M229 286c10 3 17 7 21 13-13 0-21-3-25-10l4-3Zm54 0c-10 3-17 7-21 13 13 0 21-3 25-10l-4-3Z" fill="#152840"/>
+  <path d="M243 378h10v61h-10v-61Zm16 0h10v61h-10v-61Z" fill="#fff" stroke="#fff" stroke-linecap="round"/>
+  <path d="M132 411c-38-5-74 0-108 15 45-46 93-54 144-24m212 9c38-5 74 0 108 15-45-46-93-54-144-24" fill="none" stroke="#152840" stroke-width="21" stroke-linecap="round"/>
+  <path d="M79 114c45-54 104-81 177-81s132 27 177 81" fill="none" stroke="#fff" stroke-width="22" stroke-linecap="round" opacity=".95"/>
+</svg>
