@@ -29,7 +29,10 @@ export async function POST(req:Request){
  else if(/API_KEY_INVALID|API key not valid|API key expired/i.test(JSON.stringify(failure?.error?.details||[])+message))error='Google rejected the Gemini API key. Update GEMINI_API_KEY in Vercel Production and redeploy.';
  else if(res.status===401||res.status===403)error='Google denied this Gemini request. Check the API key’s project permissions and restrictions (HTTP '+res.status+').';
  else if(res.status===404)error='The configured Gemini model is unavailable. Check GEMINI_MODEL against the models available to your API key, then redeploy.';
- else if(res.status===400)error='Gemini rejected the request format or model settings (400 INVALID_ARGUMENT).';
+ else if(res.status===400){
+ const detail=message.split(apiKey).join('[redacted]').replace(/AIza[\w-]+/g,'[redacted]').replace(/[A-Za-z0-9+/=]{100,}/g,'[omitted]').slice(0,600);
+ error='Gemini request rejected: '+(detail||reason);
+ }
  else if(res.status>=500)error='Gemini is temporarily unavailable. Please retry shortly.';
  return Response.json({error},{status:502});
  }
