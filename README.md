@@ -35,7 +35,7 @@ Firebase alone does not grant Calendar access. The app implements Google Identit
 5. Add the public client ID to Vercel as `NEXT_PUBLIC_GOOGLE_CLIENT_ID` and redeploy. Do not add a client secret; the browser token flow does not use one.
 6. In **Schedule → Google Calendar**, sign in, consent to read-only events access, then review and confirm imported events.
 
-Import reads the next 60 days from the primary calendar, expands recurring events into individual occurrences, paginates up to 500 entries, and skips all-day and multi-day events. Nothing is saved until confirmation. Access tokens stay in memory and are not stored. Reconnecting is a manual refresh; deleted remote events are not automatically removed locally. School administrators may restrict third-party Calendar access. Public OAuth verification may be required beyond a test-user demo.
+Import reads the next 60 days from your visible Google calendars, expands recurring events into individual occurrences, paginates up to 500 entries, and skips all-day and multi-day events. Nothing is saved until confirmation. Access tokens stay in memory and are not stored. Reconnecting is a manual refresh; deleted remote events are not automatically removed locally. School administrators may restrict third-party Calendar access. Public OAuth verification may be required beyond a test-user demo.
 
 Without the client ID, the button explains the setup requirement; manual and photo entry remain available.
 
