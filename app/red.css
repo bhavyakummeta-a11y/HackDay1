@@ -1,0 +1,44 @@
+/* PackBreak red launch styling */
+:root{--ink:#10131f;--muted:#687186;--paper:#fff;--green:#c61f22;--lime:#ffe3e3;--line:#e7eaf0;--red:#c61f22;--navy:#152840;--soft:#f7f8fb;--rose:#fff0f0}
+body{background:#fff;color:var(--ink);font-size:15px}
+button{transition:.18s ease}button:hover:not(:disabled){filter:none;transform:translateY(-1px)}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #f5bbbb}
+.app-shell{max-width:none;grid-template-columns:250px minmax(0,1fr);background:#fff}
+.sidebar{background:#fff;border-right:1px solid var(--line);box-shadow:14px 0 40px #15284008}
+.brand{font-size:0;color:#0f172a;letter-spacing:-1.1px;gap:12px}
+.brand:after{content:"PackBreak";font-size:27px;font-weight:800;letter-spacing:-1.1px}
+.brand img,.mobile-brand img,.brand-mark{width:44px;height:44px;border-radius:12px;box-shadow:0 10px 26px #b21a1d22;flex:0 0 44px}
+.brand-mark{background:#c61f22 url('/packbreak-logo.svg') center/cover no-repeat!important;color:transparent!important;font-size:0!important;line-height:0!important;margin-right:12px!important}
+.brand-mark>span{display:none!important}
+.campus-chip{background:#fff2f2;color:#971719;border:1px solid #ffd8d8;border-radius:12px}
+.campus-chip span,.brand-dot,.location-dot{color:#c61f22}
+.sidebar nav button{border-radius:14px;font-weight:700;color:#626a79}
+.sidebar nav button.active{background:#fff0f0;color:#b3181b;box-shadow:inset 0 0 0 1px #ffd6d6}
+.sidebar nav b{background:#c61f22;color:#fff}
+.sidebar-note,.profile{color:#222938}.profile>span{background:#fff0f0}
+main{padding:0 48px;background:linear-gradient(#fff,#fff 60%,#fafbfe)}
+.topbar{height:86px;background:#fff;position:sticky;top:0;z-index:4}
+.breadcrumb{color:#8f98aa}.bell{border-color:#e4e8f0;background:#fff;color:#b3181b}
+.page-header h1{font-size:48px;letter-spacing:-2.8px;color:#090b12}.page-header p{font-size:16px;color:#6b7280}.eyebrow{color:#b3181b}
+.break-hero{background:radial-gradient(circle at 70% 40%,#d02a2d 0,#b9161a 45%,#250507 100%);border-radius:28px;min-height:430px;color:#fff;box-shadow:0 25px 75px #8d111830;isolation:isolate}
+.break-hero:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(45deg,#ffffff16 0 3px,transparent 3px 78px);opacity:.5}
+.break-hero:after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent 0 58%,#0008 100%);z-index:-1}
+.hero-copy{padding:58px;width:58%}.pill{background:#ffffff1f;border:1px solid #ffffff30;color:#fff;font-size:12px;padding:10px 16px}
+.hero-copy h2{font-size:64px;line-height:.98;letter-spacing:-4px;color:#fff}.hero-copy em{font-family:inherit;font-weight:800;color:#ffd4d4}.hero-copy p{font-size:18px;max-width:520px;color:#ffe5e5}
+.hero-copy button{background:#fff;color:#a91518;font-size:15px;padding:16px 23px;border-radius:14px;box-shadow:0 12px 28px #97171920}.primary{background:#c61f22;color:#fff;border-radius:14px;box-shadow:0 12px 28px #97171920}
+.hero-art{width:42%}.plate{width:330px;height:310px;border:0;background:#fff;box-shadow:0 28px 80px #12000055;border-radius:28px;transform:none;align-items:start;justify-content:start;padding:34px;overflow:hidden}.plate:before{content:"Saturday, Sept 26\A Your day";white-space:pre;position:absolute;top:30px;left:34px;color:#152840;font-weight:900;font-size:24px;line-height:1.45}.salad{font-size:0;width:100%}.salad:before{content:"Calculus II — Lecture\A 9:00 AM · SAS Hall, 204\A\A Study session\A 10:30 AM · Hunt Library\A\A Lunch\A 12:00 PM · Fountain Dining\A\A Study with Maya\A 4:00 PM · Riddick Hall";white-space:pre;display:block;text-align:left;font-size:14px;line-height:1.6;color:#253044;margin-top:70px;font-weight:700;max-width:260px;overflow:hidden}.orbit,.floating,.art-label{display:none}
+.study-nudge,.friends-card,.reminder-banner{background:#fff5f5;border:1px solid #ffdada}
+.nudge-icon,.plan-symbol,.event-icon{background:#fff0f0;color:#c61f22}
+.intent-tabs{background:#f5f7fb;border:1px solid #e8ebf2}.intent-tabs button.selected{background:#c61f22;color:#fff}
+.filter-row select,.filter-row button,input,select{border-color:#dfe5ef;background:#fff}
+.place-card,.day-card,.settings-card,.event-row,.plan-row,.import-card{border:1px solid #e1e6ef;background:#fff;border-radius:22px;box-shadow:0 14px 35px #15284008}
+.place-art{background:#fff6f6!important}.art-shape{background:#c61f2214}.place-tag,.match{background:#c61f22;color:#fff;border-radius:999px}
+.tags>span{background:#fff1f1;color:#b3181b}.fit-note{color:#5b6475}.source-link,.card-actions a,.plan-actions a,.plan-actions button,.section-title button,.friends-card button{color:#b3181b}
+.day-card{border-radius:26px}.timeline-event{border-left-color:#e5ebf3}.timeline-event:before{background:#c61f22;border-color:#fff}.timeline-event.exam{border-color:#ffdada}
+.import-grid{gap:22px}.import-card{min-height:155px}.import-card>span{color:#c61f22}.empty{background:#fbfcff;border-color:#e0e6f0;border-radius:24px}.outline{border-color:#ffd1d1;color:#b3181b}
+.toast{background:#f3fbf6;color:#15623a}.error{background:#fff0f0;color:#971719}
+dialog{background:#fff;border-radius:28px;border:1px solid #e2e7ef;box-shadow:0 30px 100px #10131f35}dialog::backdrop{background:#11182766;backdrop-filter:blur(8px)}
+.review-note{background:#fff5f5}footer{color:#7b8494}.bottom-nav{background:#fffffff5}.bottom-nav button.active{background:#fff0f0;color:#b3181b}
+@media(max-width:1150px){.hero-copy h2{font-size:52px}.hero-copy{padding:42px}.plate{width:255px;height:255px}.salad:before{font-size:12px}.page-header h1{font-size:40px}}
+@media(max-width:900px){.break-hero{min-height:390px}.hero-copy{width:62%}.hero-art{width:38%}.plate{width:230px;height:250px}.hero-copy h2{font-size:48px}.place-grid{grid-template-columns:1fr}.dashboard{grid-template-columns:1fr}.day-column{grid-template-columns:1fr}}
+@media(max-width:650px){main{padding:0 18px 84px}.topbar{height:72px}.mobile-brand{display:flex;align-items:center;gap:10px;font-size:0;color:#0f172a}.mobile-brand:before{content:"";width:44px;height:44px;border-radius:12px;background:#c61f22 url('/packbreak-logo.svg') center/cover no-repeat;box-shadow:0 10px 26px #b21a1d22}.mobile-brand:after{content:"PackBreak";font-size:22px;font-weight:800;letter-spacing:-1.1px}.mobile-brand>span{display:none}.page-header h1{font-size:34px}.break-hero{display:block;min-height:auto;border-radius:24px}.hero-copy{width:100%;padding:30px}.hero-copy h2{font-size:44px}.hero-copy p{font-size:14px}.hero-art{position:relative;width:100%;height:250px}.plate{width:calc(100% - 40px);height:220px}.plate:before{font-size:18px}.salad:before{font-size:11px}.import-card{border-radius:18px}.bottom-nav button.active{background:#c61f22;color:#fff}}
